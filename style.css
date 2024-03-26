@@ -1,0 +1,550 @@
+*{
+    font-family: 'Poppins', sans-serif;
+     padding: 0;
+     flex-wrap: wrap;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+   
+}
+html{
+    scroll-behavior: smooth;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+body{
+    background-color: #F2DABD;;
+    padding: 0;
+    margin: 0;
+    overflow-x  : hidden;
+    
+    
+
+}
+
+.layout{
+    
+    background-color: #261614;
+    width: 100%;
+height: 130px;
+flex-shrink: 0;
+z-index: 0;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding: 0;
+align-content: center;
+padding-right: 15px;
+margin-bottom: 30px;
+}
+.layout h1{
+    font-weight: bold;
+}
+
+
+a{
+    font-weight: bold;
+}
+
+
+
+.logo{
+    color:#F2EEE9;
+    font-size: 1.8em;
+    padding-left: 1.5em;
+
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+    
+
+a{
+   text-decoration: none;
+   color:#F2EEE9;
+   transition: 0.5s;
+   font-size: 19.32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;    
+}
+
+.links{
+    color: black;
+}
+.links:hover{
+    color: #492d29;
+}
+
+.navbar{
+    display: flex;
+    gap: 50px;
+    align-content: center;
+}
+
+
+a.impacto:hover{
+
+color: green;
+}
+
+
+
+    
+
+
+
+.imagens img{
+
+
+    height: 600px;
+    margin: 0  40px;
+    
+   
+   
+    
+}
+
+.main{  
+    display: flex;
+    margin: 300px;
+
+    
+    
+    
+}
+.secao2{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #CDA886;
+    width: 95%;
+    height: 350px;
+    padding-block: 120px;
+    flex-wrap: nowrap;
+    margin: 60px 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+    
+}
+
+.secao2 a{
+    text-align: center;
+    background-color: #261614;
+    border-radius: 30px;
+    padding: 16px 10px;
+    font-weight: bold;
+
+    
+}
+
+
+
+.impactotexto{
+    background-color: #31401ABF;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 0;
+    margin-right: 40px;
+
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+     
+  
+
+    
+}
+
+.secao3{
+
+    display: flex;
+    flex-wrap: nowrap;
+   
+
+    width: 100%;
+   
+    
+    
+   
+}
+
+.impactoimagem{
+    
+    display: flex;
+    width: 50%;
+margin: 0;
+padding: 0;
+
+}
+
+
+.secao3 a{
+    background-color: #034001;
+    border-radius: 30px;
+    padding: 16px 10px;
+}
+
+.secao3 a:hover{
+    color: #031d02;
+    background-color: white;
+}
+
+
+
+#smooth{
+    
+    
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex: 1;   margin: 10px; padding: 10px;
+    background-color: #CDA886;
+}
+#sobreNos{
+    position: fixed;
+    margin-top: none;
+    background-color: #EDE6D3;
+    width: 100%;
+    
+}
+#NsCoffe{
+    color: #5B3824;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fouter{
+    box-shadow: 4px -4px 3px 0px rgba(0, 0, 0, 0.25);
+    background-color: #E0CAAE;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+#footer_smooth{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+   max-width: 160px;
+    
+}
+#footer_impacto{    
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#icons{
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+
+}
+#maps{
+    display: flex;
+    flex-direction: column;
+}
+#loc{
+    margin-top: 3px;
+       margin-bottom: 30px;
+    }
+
+
+#nossaEmpresa{
+    flex: 1;   margin: 10px; padding: 10px;
+}
+#nossaEm{
+    color: #5B3824;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #261614
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+  
+
+
+
+  .textocafe{
+    background-color: #31401ABF;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 0;
+    margin-right: 40px;
+
+    text-align: center;
+  
+
+    
+}
+.textocafe h2{
+    color: #F2EEE9;
+}
+.secao3{
+
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+    width: 1    00%;
+
+}
+
+    
+    
+   
+
+
+.imagemcafe{
+    
+    display: flex;
+    width: 95%;
+margin-top: 30px;
+padding: 0;
+
+}
+
+
+.secao4 a{
+    background-color: #CDA886;
+    border-radius: 30px;
+    padding: 16px 10px;
+}
+
+.secao4 a:hover{
+    color: #031d02;
+    background-color: white;
+}
+
+.secao4{
+display: flex;
+    flex-wrap: nowrap;
+    
+    
+    width: 100%;
+    margin-top: 60px;
+    
+}
+
+
+.secao4 .textocafe{
+    margin: 0;
+    margin-left: 40px;
+    width: 47.4%;
+    padding: 25px;
+    background-color:#5B3824;
+    color:#b38469;
+
+}
+
+.secao4 .imagemcafe{
+    margin: 0;
+    margin-right: 40px;
+    width: 50%;
+
+}
+.secao4 .imagemcafe img{
+    margin: 0;
+    width: 100%;
+}
+
+
+.mySlides img{
+    width: 95%;
+   
+    text-align: center;
+   
+    margin-top: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#asd{
+    background-color: #261614;
+    transition: 0.5s;
+    
+
+}
+
+#asd:hover{
+    color: black;
+    background-color:#F2EEE9;
+}
+
+section h1{
+    font-size: 3.0em;
+}
+
+.footer{
+    
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 30px;
+    color: #261614;
+    transition: 0.5s;
+}
+.footer a:hover{
+    color: #5B3824;
+}
+
+.foooter{
+    color: #261614;
+      
+    margin-right: 650px;
+    padding-top: 44px;
+    
+    
+}   
+
+
+
+
+.links{
+    margin-top: 30px;
+}   
+
+.logofooter h2{
+    color: #261614;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+
+#impactoo{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#facebook{
+    transition: 0.5s;
+    color: #261614;
+    
+}
+#facebook:hover{
+    transform: scale(1.3);
+}
+
+#icons{
+    gap: 20px;
+    
+}
+
+#instagram{
+    color: #261614;
+    transition: 0.5s;
+}
+
+#instagram:hover{
+    transform: scale(1.3);
+}
+
+#twitter{
+    color: #261614;
+    transition: 0.5s;
+}
+
+#twitter:hover{
+    transform: scale(1.3);
+}
+
+
+
+#loc{
+    margin-top: 40px;
+}
+
+#fouter a{
+    color: #261614;
+}
+
+
+
+
+       
+
+
+
+.container-slider {
+  display: flex;
+  width: 100%;
+  min-height: 60vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+
+.slider {
+  opacity: 0;
+  transition: opacity 1s;
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.on {
+  opacity: 1;
+}
+
+#prev-button, #next-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#prev-button img, #next-button img {
+  width: 100%;
+  height: 100%;
+}
+
+#prev-button {
+  transform: rotate(180deg);
+}

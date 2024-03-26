@@ -1,0 +1,285 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F2DABD;;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.layout{
+    
+    background-color: #261614;
+    width: 100%;
+height: 130px;
+flex-shrink: 0;
+z-index: 0;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding: 0;
+align-content: center;
+padding-right: 15px;
+
+
+}
+
+
+.logo{
+    display: flex;
+    color:#F2EEE9;
+    font-size: 1.8em;
+    padding-left: 1.5em;
+    align-items: center;
+    transition: 0.5s;
+}
+.logo:hover{
+    color:#F2CA99;
+}
+
+
+.navbar{
+    display: flex;
+    gap: 50px;
+    align-content: center;
+    padding-top: 50px;
+    margin-right: 15px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color:#F2EEE9;
+    transition: 0.5s;
+    font-size: 19.32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+    scroll-behavior: smooth;
+}
+
+a:hover{
+    color:#F2CA99;
+
+}
+.links{
+    color: black;
+}
+.links:hover{
+    color: #492d29;
+}
+
+main{
+    display: flex;
+    position: relative;
+}
+
+.nossaEmpresa{
+    flex: 1;   margin: 10px; padding: 10px;
+    
+}
+#nossaEm{
+    color: #5B3824;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.smooth{
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #f2dabd;
+    flex: 1;   margin: 10px; padding: 10px;
+    background-color: #CDA886;
+    margin: 0;
+    background-attachment: scroll;
+    background-image: url("./img/cafeteira.jpeg");
+    background-size:  100%;
+    margin-bottom: -79px;
+    
+}
+#sobreNos{
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.25);
+    margin-top: none;
+    background-color: #EDE6D3;
+    z-index: 1;
+    position: relative;
+    
+}
+.NsCoffe{
+    color: #5B3824;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.letra{
+    margin-left: 80px;
+}
+.texto{
+    text-align: justify;
+    width: 600px;
+    margin: auto;
+}
+.smooth h1{
+    z-index: 1;
+}
+.opacidade{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5b382483;
+}
+#fouter{
+    box-shadow: 4px -4px 3px 0px rgba(0, 0, 0, 0.25);
+    background-color: #E0CAAE;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+#footer_smooth{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+   max-width: 160px;
+    
+}
+#footer_impacto{    
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#icons{
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+
+}
+.footer{
+    
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 30px;
+    color: #261614;
+    transition: 0.5s;
+}
+.footer a:hover{
+    color: #5B3824;
+}
+
+.foooter{
+    color: #261614;
+      
+    margin-right: 650px;
+    padding-top: 44px;
+    
+    
+}   
+
+
+
+
+.links{
+    margin-top: 30px;
+}   
+
+.logofooter h2{
+    color: #261614;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+
+#impactoo{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#facebook{
+    transition: 0.5s;
+    color: #261614;
+    
+}
+#facebook:hover{
+    transform: scale(1.3);
+}
+
+#icons{
+    gap: 20px;
+    
+}
+
+#instagram{
+    color: #261614;
+    transition: 0.5s;
+}
+
+#instagram:hover{
+    transform: scale(1.3);
+}
+
+#twitter{
+    color: #261614;
+    transition: 0.5s;
+}
+
+#twitter:hover{
+    transform: scale(1.3);
+}
+
+
+
+#loc{
+    margin-top: 40px;
+}
+
+#fouter a{
+    color: #261614;
+}
+.impacto{
+    color: rgb(242, 238, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+section h1{
+    font-size: 3.0em;
+}
+.social{
+    background-color: rgba(96, 165, 0, 0.527);
+    
+    
+
+}
+.social h2{
+    color: rgb(3, 54, 3);
+}
+
+.impacto:hover{
+    color: green;
+}
+
+

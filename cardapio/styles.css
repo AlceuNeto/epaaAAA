@@ -1,0 +1,342 @@
+
+
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+     padding: 0;
+     flex-wrap: wrap;
+     margin: 0;
+     box-sizing: border-box;
+     font-size: 0.9999em;
+}
+
+
+body{
+    background-color: #F2DABD;;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.layout{
+    
+    background-color: #261614;
+    width: 100%;
+height: 130px;
+flex-shrink: 0;
+z-index: 0;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+.layout h1{
+    font-weight: bold;
+    font-size: 3.0em;
+}
+
+
+
+.logo{
+    color:#F2EEE9;
+    font-size: 1.8em;
+    padding-left: 1.5em;
+display: flex;
+align-items: center;
+    transition: 0.5s;
+}
+.logo:hover{
+    color:#F2CA99;
+}   
+
+
+
+    
+    
+
+a{
+   text-decoration: none;
+   color:#F2EEE9;
+   transition: 0.5s;
+   font-size: 19.32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;    
+}
+
+a:hover{
+      color:#F2CA99;
+
+}
+.links{
+    color: black;
+}
+.links:hover{
+    color: #492d29;
+}
+
+.cardapio{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+
+}
+.cardapio h2{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color:rgb(0, 0, 0);
+}
+
+.itens-cardapio{
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #f2e9da;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 10px;
+    
+}
+.itens-cardapio .expresso{
+  width: 400px;
+  zoom: 80%;
+  background-color: #492d29;
+  border-radius: 10px;
+    
+}
+.itens-cardapio .info{
+    background-color: #492d29;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.itens-cardapio .info h3{
+    font-size: 30px;
+    text-decoration: uppercase;
+    margin-bottom: 1rem;
+    color: white;
+}
+.itens-cardapio .info h4{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    margin-bottom: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    color: white;
+    font-weight: 300;
+}
+.itens-cardapio .info h4 span{
+    font-size: 1.6rem;
+    color: white;
+    margin-left: 1.5rem;
+
+}
+.itens-cardapio .info .pedir{
+    width: 200px;
+    height: 55px;
+    margin-top: 0.5rem;
+    background-color: #261614;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    transition: all 200ms ease-in;
+    border-radius: 35px;
+    border: none;
+    margin-top: 25px;
+
+}
+.itens-cardapio .info .pedir:hover{
+    background-color: #F2CA99;
+    color: black;
+}
+#indisponivel{
+    background-color: #ffffff;
+    color: black;
+}
+
+
+
+
+.itens-cardapio img{
+    width: 100%;
+    height: 200px;
+    zoom: 160%;
+    border-radius: 10px
+}
+.titulo{
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-right: 40px;
+    
+
+    
+   
+    
+
+}
+
+h1{
+    font-size: 1.8em;
+}
+#fouter{
+    box-shadow: 4px -4px 3px 0px rgba(0, 0, 0, 0.25);
+    background-color: #E0CAAE;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+#footer_smooth{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+   max-width: 160px;
+    
+}
+#footer_impacto{    
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#icons{
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+
+}
+.footer{
+    
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 30px;
+    color: #261614;
+    transition: 0.5s;
+}
+.footer a:hover{
+    color: #5B3824;
+}
+
+.foooter{
+    color: #261614;
+      
+    margin-right: 650px;
+    padding-top: 44px;
+    
+    
+}   
+
+
+
+
+.links{
+    margin-top: 30px;
+}   
+
+.logofooter h2{
+    color: #261614;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+
+#impactoo{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#facebook{
+    transition: 0.5s;
+    color: #261614;
+    
+}
+#facebook:hover{
+    transform: scale(1.3);
+}
+
+#icons{
+    gap: 20px;
+    
+}
+
+#instagram{
+    color: #261614;
+    transition: 0.5s;
+}
+
+#instagram:hover{
+    transform: scale(1.3);
+}
+
+#twitter{
+    color: #261614;
+    transition: 0.5s;
+}
+
+#twitter:hover{
+    transform: scale(1.3);
+}
+
+
+
+#loc{
+    margin-top: 40px;
+}
+
+#fouter a{
+    color: #261614;
+}
+
+
+.branco h2{
+    border-bottom: 0.5px solid #261614 ;
+width: 93%;
+
+   
+
+}
+
+.cafe2{
+    margin-right: 30px;
+}
+
